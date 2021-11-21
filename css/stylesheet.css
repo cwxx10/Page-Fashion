@@ -1,0 +1,163 @@
+body{
+    margin: 0%;
+    font-family: tahoma, Arial, sans-serif;
+    padding: 0%;
+}
+
+.bg{
+    background-color: red;
+    z-index: 3;
+    height:100px;
+}
+
+#logo{
+    position: absolute;
+    bottom: 590px;
+    left: 60px;
+}
+
+#image{
+    width: 100%;
+    height: 520px;
+    position: relative;
+}
+
+.menunav{
+    
+    position: absolute;
+    top: 10px;
+    left: 55%;
+    padding: 25px;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    padding: 1px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(184, 184, 184, 0.9);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.nav a: hover{
+    color: white;
+}
+
+
+
+.square{
+    height: 1050px;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.07);
+    position: absolute;
+    margin-left: 426px;
+    top: 1300px;
+    border: rgb(99, 77, 77) solid 1px;
+}
+
+.article-box-main{
+    background-color: rgb(255, 255, 255);
+    margin-left: 400px;
+    margin-right: -100px;
+    width: 500px;
+    
+    
+}
+
+.article-box{
+    padding-left: 100px;
+    
+    
+
+}
+
+.article-h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 90px 120px 20px 120px;
+    letter-spacing: 4px;
+}
+
+.article-p{
+    text-align: center;
+    font-size: 25px;
+    line-height: 46px;
+    padding: 70px 190px;
+    letter-spacing: 1px;
+}
+
+.article-p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 25px;
+    letter-spacing: 4px;
+}
+
+.article-p2{
+    font-family: sans-serif;
+    margin-left: 55px;
+    font-style: oblique;
+}
+
+.every{
+    background-color: rgb(24, 126, 185);
+    color: rgb(218, 218, 218);
+    height: 420px;
+  
+     
+}
+.every h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    text-transform: uppercase;
+
+
+}
+
+.praesent{
+    padding: 30px 70px;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+.call{
+    text-align: center;
+    color: rgb(66, 145, 190);
+    background: rgba(0, 0, 0, 0.2);
+    width: 400px;
+    left: 388px;
+    position: relative;
+    padding: 50px;
+    border: rgb(187, 140, 140) solid 2px;
+
+}
+
+
+.maps{
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: turquoise;
+    padding: 40px;
+    font-size: 40px;
+    border-top: rgb(165, 165, 165) solid 0.1px;
+}
